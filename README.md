@@ -20,9 +20,11 @@ I also added a method that allows you to fade the opacity like this:
 	[myText fadeTo:255*0.8 withDuration:0.8 withDelay:0.8];
 
 
-I was testing this on iOS 7.1 and iOS 6.1 and it works great ;)
+I was testing this with Cocos2D 2.1 on iOS 7.1 and iOS 6.1 and it works great.
+(It might also work on newer Cocos2D Versions?!?)
 
-It's written without ARC so dont forget to set the `-fno-objc-arc` flag.
+
+It's written without ARC so dont forget to set the `-fno-objc-arc` flag if you are using ARC.
 
 Feel free to send me any merge requests if you have some improvements.
 
